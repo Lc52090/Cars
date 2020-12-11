@@ -1,0 +1,581 @@
+@media screen and (min-width: 751px) {
+  .layout .closed {
+    display: none;
+  }
+  .layout .header {
+    height: 10.52rem;
+    background: url('../img/pcimg/apprance/header.png') no-repeat;
+    background-size: contain;
+  }
+  .layout .tabcolor {
+    height: 7.77rem;
+  }
+  .layout .tabcolor .color-content {
+    width: 12rem;
+    height: 100%;
+    margin: auto;
+    background: url('../img/pcimg/second/color01.png') no-repeat;
+    background-size: 7.69rem 6.19rem;
+    background-position: right 0.94rem;
+  }
+  .layout .tabcolor .color-content .left {
+    display: inline-block;
+  }
+  .layout .tabcolor .color-content .left > p:nth-of-type(1) {
+    padding-top: 0.54rem;
+    margin-bottom: 0.35rem;
+    font-size: 0.35rem;
+    letter-spacing: 0.04rem;
+    color: #000000;
+  }
+  .layout .tabcolor .color-content .left > p:nth-of-type(2) {
+    width: 2.8rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.02rem;
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 0.34rem;
+  }
+  .layout .tabcolor .color-content .left > .tabchoose {
+    margin-top: 2.61rem;
+  }
+  .layout .tabcolor .color-content .left > .tabchoose > P {
+    color: #595757;
+    font-size: 0.2rem;
+  }
+  .layout .tabcolor .color-content .left > .tabchoose > ul {
+    margin-top: 0.14rem;
+    cursor: pointer;
+  }
+  .layout .tabcolor .color-content .left > .tabchoose > ul li {
+    float: left;
+    width: 0.44rem;
+    height: 0.44rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #000;
+    position: relative;
+    margin-right: 0.39rem;
+  }
+  .layout .tabcolor .color-content .left > .tabchoose > ul li div {
+    width: 0.22rem;
+    height: 0.44rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #e08234;
+    border-top-left-radius: 0.22rem;
+    border-bottom-left-radius: 0.22rem;
+    -webkit-border-top-left-radius: 0.22rem;
+    -webkit-border-bottom-left-radius: 0.22rem;
+  }
+  .layout .tabcolor .color-content .left > .tabchoose > ul li:nth-of-type(2) div {
+    background-color: #9f2e2e;
+  }
+  .layout .tabcolor .color-content .left > .tabchoose > ul li:nth-of-type(3) div {
+    background-color: #ffffff;
+  }
+  .layout .tablight {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 7.77rem;
+  }
+  .layout .tablight > .toptext {
+    width: 12rem;
+    margin: auto;
+  }
+  .layout .tablight > .toptext > p {
+    font-size: 0.3rem;
+    letter-spacing: 0.03rem;
+    color: #000000;
+    padding: 0.61rem 0 0.37rem 0;
+  }
+  .layout .tablight > .toptext > ul {
+    display: flex;
+    font-size: 0.2rem;
+    letter-spacing: 0.02rem;
+    color: #595757;
+    cursor: pointer;
+  }
+  .layout .tablight > .toptext > ul li {
+    flex: 1;
+  }
+  .layout .tablight > .toptext > ul li.active span {
+    position: relative;
+    display: inline-block;
+  }
+  .layout .tablight > .toptext > ul li.active span > div {
+    position: absolute;
+    top: -0.05rem;
+    width: 100%;
+    height: 0.02rem;
+    background-color: #626262;
+  }
+  .layout .tablight > .toptext > ul li:nth-of-type(2) {
+    text-align: center;
+  }
+  .layout .tablight > .toptext > ul li:last-child {
+    text-align: end;
+  }
+  .layout .tablight > .phototab {
+    width: 12rem;
+    height: 4.9rem;
+    margin: 0.29rem auto 0.23rem;
+    background: url('../img/pcimg/second/light01.png') no-repeat;
+    background-size: contain;
+  }
+  .layout .tablight > .bottomtext {
+    width: 12rem;
+    margin: auto;
+    font-size: 0.35rem;
+    letter-spacing: 0.04rem;
+  }
+  .layout .outside {
+    height: 7.77rem;
+    background: url('../img/pcimg/second/_header.png') no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+  .layout .outside .outside-toptab {
+    width: 12rem;
+    z-index: 2;
+    position: absolute;
+    top: 0.56rem;
+    left: 3.6rem;
+  }
+  .layout .outside .outside-toptab > p {
+    padding: 0 0 0.37rem 0;
+    font-size: 0.3rem;
+    color: #ffffff;
+  }
+  .layout .outside .outside-toptab > ul {
+    display: flex;
+    cursor: pointer;
+  }
+  .layout .outside .outside-toptab > ul li {
+    flex: 1;
+    font-size: 0.15rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  .layout .outside .outside-toptab > ul li:first-child {
+    text-align: start;
+    flex: 0.85;
+  }
+  .layout .outside .outside-toptab > ul li:nth-of-type(2) {
+    flex: 1.2;
+  }
+  .layout .outside .outside-toptab > ul li:nth-of-type(4) {
+    flex: 0.7;
+  }
+  .layout .outside .outside-toptab > ul li:last-child {
+    text-align: end;
+  }
+  .layout .outside .outside-toptab > ul li.active > span {
+    position: relative;
+    display: inline-block;
+  }
+  .layout .outside .outside-toptab > ul li.active > span > div {
+    position: absolute;
+    top: -0.05rem;
+    width: 100%;
+    height: 0.02rem;
+    background-color: #ffffff;
+  }
+  .layout .outside > .out-bottomtext {
+    width: 12rem;
+    position: absolute;
+    bottom: 0.8rem;
+    left: 3.6rem;
+    z-index: 2;
+  }
+  .layout .outside > .out-bottomtext p:first-child {
+    font-size: 0.35rem;
+    color: #ffffff;
+    padding-bottom: 0.29rem;
+  }
+  .layout .outside > .out-bottomtext p:last-child {
+    font-size: 0.18rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .layout .outside .swiper-wrapper {
+    height: 100%;
+  }
+  .layout .outside .swiper-wrapper .swiper-slide {
+    height: 100%;
+  }
+  .layout .outside .swiper-wrapper .swiper-slide:nth-of-type(1) {
+    background: url('../img/pcimg/second/_header.png') no-repeat;
+    background-size: contain;
+  }
+  .layout .outside .swiper-wrapper .swiper-slide:nth-of-type(2) {
+    background: url('../img/pcimg/second/_container.png') no-repeat;
+    background-size: contain;
+  }
+  .layout .outside .swiper-wrapper .swiper-slide:nth-of-type(3) {
+    background: url('../img/pcimg/second/_footer.png') no-repeat;
+    background-size: contain;
+  }
+  .layout .outside .swiper-wrapper .swiper-slide:nth-of-type(4) {
+    background: url('../img/pcimg/second/_window.png') no-repeat;
+    background-size: contain;
+  }
+  .layout .outside .swiper-wrapper .swiper-slide:nth-of-type(5) {
+    background: url('../img/pcimg/second/_wheel.png') no-repeat;
+    background-size: contain;
+  }
+  .layout .inside {
+    height: 7.18rem;
+    background-color: #f3f4f5;
+    position: relative;
+  }
+  .layout .inside .inside-bck {
+    width: 9.81rem;
+    height: 6.53rem;
+    margin-left: 1.69rem;
+    background: url('../img/pcimg/apprance/inside02.png') no-repeat;
+    background-size: contain;
+    background-position: left 1.53rem;
+  }
+  .layout .inside .right {
+    position: absolute;
+    right: 3rem;
+    top: 2.1rem;
+  }
+  .layout .inside .right .right-text > p {
+    font-size: 0.35rem;
+    color: #000000;
+    text-align: end;
+  }
+  .layout .inside .right .right-text > .inside-text {
+    line-height: 0.34rem;
+    text-align: end;
+    font-size: 0.18rem;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 0.3rem;
+    padding-bottom: 0.36rem;
+    border-bottom: 0.01rem solid rgba(0, 0, 0, 0.6);
+  }
+  .layout .inside .right > .inside-tab {
+    letter-spacing: 0;
+    text-align: end;
+    margin-top: 0.32rem;
+  }
+  .layout .inside .right > .inside-tab > p {
+    font-size: 0.25rem;
+    line-height: 0.4rem;
+  }
+  .layout .inside .right > .inside-tab > ul {
+    cursor: pointer;
+  }
+  .layout .inside .right > .inside-tab > ul li {
+    font-size: 0.2rem;
+    line-height: 0.4rem;
+    position: relative;
+  }
+  .layout .inside .right > .inside-tab > ul li.active::before {
+    content: '';
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: rgba(0, 0, 0);
+    position: absolute;
+    left: 1.6rem;
+    top: 0.17rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .layout {
+    overflow-x: hidden;
+    position: relative;
+  }
+  .layout .closed {
+    cursor: pointer;
+    position: absolute;
+    right: 0.4rem;
+    top: 0.15rem;
+  }
+  .layout .closed img {
+    height: 0.26rem;
+    width: 0.31rem;
+    display: block;
+  }
+  .layout .header {
+    margin-top: 0.57rem;
+    height: 6.95rem;
+    background: url('../img/telimg/second/header.png') no-repeat;
+    background-size: contain;
+  }
+  .layout .tabcolor {
+    height: 7.4rem;
+  }
+  .layout .tabcolor .color-content {
+    width: 6rem;
+    height: 100%;
+    margin: auto;
+    background: url('../img/telimg/second/color01.png') no-repeat;
+    background-size: 5.33rem 4.29rem;
+    background-position: right center;
+  }
+  .layout .tabcolor .color-content .left > p:nth-of-type(1) {
+    padding-top: 0.75rem;
+    margin-bottom: 0.35rem;
+    font-size: 0.25rem;
+    letter-spacing: 0.04rem;
+    color: #000000;
+  }
+  .layout .tabcolor .color-content .left > p:nth-of-type(2) {
+    width: 2.8rem;
+    font-size: 0.18rem;
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 0.34rem;
+  }
+  .layout .tabcolor .color-content .left > .tabchoose {
+    margin-top: 4rem;
+  }
+  .layout .tabcolor .color-content .left > .tabchoose > P {
+    color: #595757;
+    font-size: 0.15rem;
+  }
+  .layout .tabcolor .color-content .left > .tabchoose > ul {
+    margin-top: 0.06rem;
+  }
+  .layout .tabcolor .color-content .left > .tabchoose > ul li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #000;
+    position: relative;
+    margin-right: 0.39rem;
+  }
+  .layout .tabcolor .color-content .left > .tabchoose > ul li div {
+    height: 20px;
+    width: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #e08234;
+    border-top-left-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+  }
+  .layout .tabcolor .color-content .left > .tabchoose > ul li:nth-of-type(2) div {
+    background-color: #9f2e2e;
+  }
+  .layout .tabcolor .color-content .left > .tabchoose > ul li:nth-of-type(3) div {
+    background-color: #ffffff;
+  }
+  .layout .tablight {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 7.15rem;
+  }
+  .layout .tablight > .toptext {
+    width: 6rem;
+    margin: auto;
+  }
+  .layout .tablight > .toptext > p {
+    font-size: 0.18rem;
+    letter-spacing: 0.02rem;
+    color: #000000;
+    padding: 0.3rem 0 0.43rem 0;
+  }
+  .layout .tablight > .toptext > ul {
+    display: flex;
+    font-size: 0.13rem;
+    color: #595757;
+    cursor: pointer;
+  }
+  .layout .tablight > .toptext > ul li {
+    flex: 1;
+  }
+  .layout .tablight > .toptext > ul li.active span {
+    position: relative;
+    display: inline-block;
+  }
+  .layout .tablight > .toptext > ul li.active span > div {
+    position: absolute;
+    top: -0.08rem;
+    width: 100%;
+    height: 0.02rem;
+    background-color: #626262;
+  }
+  .layout .tablight > .toptext > ul li:nth-of-type(2) {
+    text-align: center;
+  }
+  .layout .tablight > .toptext > ul li:last-child {
+    text-align: end;
+  }
+  .layout .tablight > .phototab {
+    width: 6.3rem;
+    height: 4.68rem;
+    margin: 0.26rem auto 0.34rem;
+    background: url('../img/telimg/second/light01.png') no-repeat;
+    background-size: contain;
+  }
+  .layout .tablight > .bottomtext {
+    width: 6.3rem;
+    margin: auto;
+    font-size: 0.25rem;
+    letter-spacing: 0.03rem;
+  }
+  .layout .outside {
+    height: 13.2rem;
+    position: relative;
+  }
+  .layout .outside .outside-toptab {
+    width: 6.3rem;
+    position: absolute;
+    top: 0.51rem;
+    left: 0.6rem;
+    z-index: 2;
+  }
+  .layout .outside .outside-toptab > p {
+    padding: 0 0 0.32rem 0;
+    font-size: 0.18rem;
+    color: #ffffff;
+  }
+  .layout .outside .outside-toptab > ul {
+    display: flex;
+    cursor: pointer;
+  }
+  .layout .outside .outside-toptab > ul li {
+    flex: 1;
+    font-size: 0.12rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  .layout .outside .outside-toptab > ul li:first-child {
+    text-align: start;
+    flex: 0.9;
+  }
+  .layout .outside .outside-toptab > ul li:nth-of-type(2) {
+    flex: 1.2;
+  }
+  .layout .outside .outside-toptab > ul li:nth-of-type(3) {
+    flex: 1.1;
+  }
+  .layout .outside .outside-toptab > ul li:nth-of-type(4) {
+    flex: 0.8;
+  }
+  .layout .outside .outside-toptab > ul li:last-child {
+    text-align: end;
+    flex: 0.9;
+  }
+  .layout .outside .outside-toptab > ul li.active > span {
+    position: relative;
+    display: inline-block;
+  }
+  .layout .outside .outside-toptab > ul li.active > span > div {
+    position: absolute;
+    top: -0.08rem;
+    width: 100%;
+    height: 0.02rem;
+    background-color: #ffffff;
+  }
+  .layout .outside > .out-bottomtext {
+    position: absolute;
+    width: 6.3rem;
+    left: 0.6rem;
+    bottom: 1rem;
+    z-index: 2;
+  }
+  .layout .outside > .out-bottomtext p:first-child {
+    font-size: 0.35rem;
+    color: #ffffff;
+    padding-bottom: 0.29rem;
+  }
+  .layout .outside > .out-bottomtext p:last-child {
+    font-size: 0.18rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .layout .outside .swiper-wrapper {
+    height: 100%;
+  }
+  .layout .outside .swiper-wrapper .swiper-slide {
+    height: 100%;
+  }
+  .layout .outside .swiper-wrapper .swiper-slide:nth-of-type(1) {
+    background: url('../img/telimg/second/gezi.png') no-repeat;
+    background-size: contain;
+  }
+  .layout .outside .swiper-wrapper .swiper-slide:nth-of-type(2) {
+    background: url('../img/telimg/second/container.png') no-repeat;
+    background-size: contain;
+  }
+  .layout .outside .swiper-wrapper .swiper-slide:nth-of-type(3) {
+    background: url('../img/telimg/second/zhaungshi.png') no-repeat;
+    background-size: contain;
+  }
+  .layout .outside .swiper-wrapper .swiper-slide:nth-of-type(4) {
+    background: url('../img/telimg/second/window.png') no-repeat;
+    background-size: contain;
+  }
+  .layout .outside .swiper-wrapper .swiper-slide:nth-of-type(5) {
+    background: url('../img/telimg/second/wheel.png') no-repeat;
+    background-size: contain;
+  }
+  .layout .inside {
+    height: 12.7rem;
+    background-color: #f3f4f5;
+    position: relative;
+  }
+  .layout .inside .inside-bck {
+    height: 100%;
+    width: 6.3rem;
+    margin: auto;
+    background: url('../img/pcimg/apprance/tel-inside02.png') no-repeat;
+    background-size: contain;
+    background-position-y: 1.5rem;
+  }
+  .layout .inside .right {
+    width: 6.3rem;
+    margin: auto;
+  }
+  .layout .inside .right .right-text {
+    position: absolute;
+    bottom: 0.64rem;
+  }
+  .layout .inside .right .right-text > p {
+    font-size: 0.25rem;
+    color: #000000;
+  }
+  .layout .inside .right .right-text > .inside-text {
+    line-height: 0.34rem;
+    font-size: 0.15rem;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 0.33rem;
+    letter-spacing: 0.02rem;
+  }
+  .layout .inside .right .right-text > .inside-text p {
+    float: left;
+  }
+  .layout .inside .right > .inside-tab {
+    position: absolute;
+    top: 0.46rem;
+  }
+  .layout .inside .right > .inside-tab > p {
+    font-size: 0.18rem;
+    margin-bottom: 0.36rem;
+  }
+  .layout .inside .right > .inside-tab > ul {
+    width: 6.3rem;
+    display: flex;
+  }
+  .layout .inside .right > .inside-tab > ul li {
+    flex: 1;
+    font-size: 0.13rem;
+  }
+  .layout .inside .right > .inside-tab > ul li.active span {
+    position: relative;
+    display: inline-block;
+  }
+  .layout .inside .right > .inside-tab > ul li.active span div {
+    position: absolute;
+    top: -0.08rem;
+    width: 100%;
+    height: 0.02rem;
+    background-color: #626262;
+  }
+}

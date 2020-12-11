@@ -1,0 +1,763 @@
+@media screen and(min-width:751px) {
+    .layout {
+
+        //头部区域
+        .closed {
+            display: none;
+        }
+
+        .header {
+            height: 10.52rem;
+            background: url('../img/pcimg/apprance/header.png') no-repeat;
+            background-size: contain;
+        }
+
+        //双屏颜色区域
+        .tabcolor {
+            height: 7.77rem;
+
+            .color-content {
+                width: 12rem;
+                height: 100%;
+                margin: auto;
+                background: url('../img/pcimg/second/color01.png') no-repeat;
+                background-size: 7.69rem 6.19rem;
+                background-position: right .94rem;
+
+                .left {
+                    display: inline-block;
+
+                    >p {
+                        &:nth-of-type(1) {
+                            padding-top: .54rem;
+                            margin-bottom: .35rem;
+                            font-size: .35rem;
+                            letter-spacing: 0.04rem;
+                            color: #000000;
+
+                        }
+
+                        &:nth-of-type(2) {
+                            width: 2.8rem;
+                            font-size: .18rem;
+                            letter-spacing: 0.02rem;
+                            color: rgba(0, 0, 0, 0.4);
+                            line-height: .34rem;
+                        }
+                    }
+
+                    >.tabchoose {
+                        margin-top: 2.61rem;
+
+                        >P {
+                            color: #595757;
+                            font-size: .2rem;
+                        }
+
+                        >ul {
+                            margin-top: .14rem;
+                            cursor: pointer;
+
+                            li {
+                                float: left;
+                                width: .44rem;
+                                height: .44rem;
+                                border-radius: 50%;
+                                -webkit-border-radius: 50%;
+                                background-color: #000;
+                                position: relative;
+                                margin-right: .39rem;
+
+                                div {
+                                    width: .22rem;
+                                    height: .44rem;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    background-color: #e08234;
+                                    border-top-left-radius: .22rem;
+                                    border-bottom-left-radius: .22rem;
+                                    -webkit-border-top-left-radius: .22rem;
+                                    -webkit-border-bottom-left-radius: .22rem;
+                                }
+
+                                &:nth-of-type(2) {
+                                    div {
+                                        background-color: #9f2e2e;
+                                    }
+                                }
+
+                                &:nth-of-type(3) {
+                                    div {
+                                        background-color: #ffffff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //车灯切换区域
+        .tablight {
+            background-color: rgba(0, 0, 0, 0.1);
+            height: 7.77rem;
+
+            // 头部文字切换区域
+            >.toptext {
+                width: 12rem;
+                margin: auto;
+
+                >p {
+                    font-size: .3rem;
+                    letter-spacing: 0.03rem;
+                    color: #000000;
+                    padding: .61rem 0 .37rem 0;
+                }
+
+                >ul {
+                    display: flex;
+                    font-size: .2rem;
+                    letter-spacing: 0.02rem;
+                    color: #595757;
+                    cursor: pointer;
+
+                    li {
+                        flex: 1;
+
+                        &.active {
+                            span {
+                                position: relative;
+
+                                display: inline-block;
+
+                                >div {
+                                    position: absolute;
+                                    top: -0.05rem;
+                                    width: 100%;
+                                    height: 0.02rem;
+                                    background-color: #626262;
+                                }
+                            }
+                        }
+
+                        &:nth-of-type(2) {
+                            text-align: center;
+                        }
+
+                        &:last-child {
+                            text-align: end;
+                        }
+                    }
+                }
+            }
+
+            //图片切换区域
+            >.phototab {
+                width: 12rem;
+                height: 4.9rem;
+                margin: .29rem auto .23rem;
+                background: url('../img/pcimg/second/light01.png') no-repeat;
+                background-size: contain;
+            }
+
+            >.bottomtext {
+                width: 12.00rem;
+                margin: auto;
+                font-size: .35rem;
+                letter-spacing: 0.04rem;
+            }
+        }
+
+        //外观设计
+        .outside {
+            height: 7.77rem;
+            background: url('../img/pcimg/second/_header.png') no-repeat;
+            background-size: contain;
+            position: relative;
+
+            .outside-toptab {
+                width: 12rem;
+                z-index: 2;
+                position: absolute;
+                top: .56rem;
+                left: 3.6rem;
+
+                >p {
+                    padding: 0 0 .37rem 0;
+                    font-size: .3rem;
+                    color: #ffffff;
+                }
+
+                >ul {
+                    display: flex;
+                    cursor: pointer;
+
+                    li {
+                        flex: 1;
+                        font-size: .15rem;
+                        color: #ffffff;
+                        text-align: center;
+
+                        &:first-child {
+                            text-align: start;
+                            flex: 0.85;
+                        }
+
+                        &:nth-of-type(2) {
+                            flex: 1.2;
+                        }
+
+                        &:nth-of-type(4) {
+                            flex: 0.7;
+                        }
+
+                        &:last-child {
+                            text-align: end;
+                        }
+
+                        &.active {
+                            >span {
+                                position: relative;
+
+                                display: inline-block;
+
+                                >div {
+                                    position: absolute;
+                                    top: -0.05rem;
+                                    width: 100%;
+                                    height: 0.02rem;
+                                    background-color: #ffffff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            >.out-bottomtext {
+                width: 12rem;
+                position: absolute;
+                bottom: .8rem;
+                left: 3.6rem;
+                z-index: 2;
+
+                p {
+                    &:first-child {
+                        font-size: .35rem;
+                        color: #ffffff;
+                        padding-bottom: .29rem;
+                    }
+
+                    &:last-child {
+                        font-size: .18rem;
+                        color: rgba(255, 255, 255, .7);
+                    }
+                }
+            }
+
+            .swiper-wrapper {
+                height: 100%;
+
+                .swiper-slide {
+                    height: 100%;
+
+                    &:nth-of-type(1) {
+                        background: url('../img/pcimg/second/_header.png') no-repeat;
+                        background-size: contain;
+                    }
+
+                    &:nth-of-type(2) {
+                        background: url('../img/pcimg/second/_container.png') no-repeat;
+                        background-size: contain;
+                    }
+
+                    &:nth-of-type(3) {
+                        background: url('../img/pcimg/second/_footer.png') no-repeat;
+                        background-size: contain;
+                    }
+
+                    &:nth-of-type(4) {
+                        background: url('../img/pcimg/second/_window.png') no-repeat;
+                        background-size: contain;
+                    }
+
+                    &:nth-of-type(5) {
+                        background: url('../img/pcimg/second/_wheel.png') no-repeat;
+                        background-size: contain;
+                    }
+                }
+            }
+        }
+
+        //内饰设计
+        .inside {
+            height: 7.18rem;
+            background-color: #f3f4f5;
+            position: relative;
+
+            .inside-bck {
+                width: 9.81rem;
+                height: 6.53rem;
+                margin-left: 1.69rem;
+                background: url('../img/pcimg/apprance/inside02.png') no-repeat;
+                background-size: contain;
+                background-position: left 1.53rem;
+            }
+
+            .right {    
+                position: absolute;
+                right: 3rem;
+                top: 2.1rem;
+
+                .right-text {
+                    >p {
+                        font-size: .35rem;
+                        color: #000000;
+                        text-align: end;
+
+                    }
+
+                    >.inside-text {
+                        line-height: .34rem;
+                        text-align: end;
+                        font-size: .18rem;
+                        color: rgba(0, 0, 0, 0.4);
+                        margin-top: .3rem;
+                        padding-bottom: .36rem;
+                        border-bottom: 0.01rem solid rgba(0, 0, 0, .6);
+                    }
+                }
+
+                >.inside-tab {
+                    letter-spacing: 0;
+                    text-align: end;
+                    margin-top: .32rem;
+
+                    >p {
+                        font-size: .25rem;
+
+                        line-height: .4rem;
+                    }
+
+                    ;
+
+                    >ul {
+                        cursor: pointer;
+
+                        li {
+                            font-size: .2rem;
+                            line-height: .4rem;
+                            position: relative;
+
+                            &.active {
+
+                                &::before {
+                                    content: '';
+                                    width: 0.08rem;
+                                    height: 0.08rem;
+                                    border-radius: 50%;
+                                    -webkit-border-radius: 50%;
+                                    background-color: rgba(0, 0, 0);
+                                    position: absolute;
+                                    left: 1.6rem;
+                                    top: 0.17rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:750px) {
+    .layout {
+        overflow-x: hidden;
+        position: relative;
+
+        .closed {
+            cursor: pointer;
+            position: absolute;
+            right: .4rem;
+            top: .15rem;
+
+            img {
+                height: .26rem;
+                width: .31rem;
+                display: block;
+            }
+        }
+
+        //头部区域
+        .header {
+            margin-top: .57rem;
+            height: 6.95rem;
+            background: url('../img/telimg/second/header.png') no-repeat;
+            background-size: contain;
+        }
+
+        //双屏颜色区域
+        .tabcolor {
+            height: 7.4rem;
+
+            .color-content {
+                width: 6rem;
+                height: 100%;
+                margin: auto;
+                background: url('../img/telimg/second/color01.png') no-repeat;
+                background-size: 5.33rem 4.29rem;
+                background-position: right center;
+
+                .left {
+                    >p {
+                        &:nth-of-type(1) {
+                            padding-top: .75rem;
+                            margin-bottom: .35rem;
+                            font-size: .25rem;
+                            letter-spacing: 0.04rem;
+                            color: #000000;
+
+                        }
+
+                        &:nth-of-type(2) {
+                            width: 2.8rem;
+                            font-size: .18rem;
+                            color: rgba(0, 0, 0, 0.4);
+
+                            line-height: .34rem;
+                        }
+                    }
+
+                    >.tabchoose {
+                        margin-top: 4rem;
+
+                        >P {
+                            color: #595757;
+                            font-size: .15rem;
+                        }
+
+                        >ul {
+                            margin-top: 0.06rem;
+
+                            li {
+                                float: left;
+                                width: 20px;
+                                height: 20px;
+                                border-radius: 50%;
+                                -webkit-border-radius: 50%;
+                                background-color: #000;
+                                position: relative;
+                                margin-right: .39rem;
+
+                                div {
+                                    height: 20px;
+                                    width: 10px;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    background-color: #e08234;
+                                    border-top-left-radius: 10px;
+                                    -webkit-border-top-left-radius: 10px;
+                                    border-bottom-left-radius: 10px;
+                                    -webkit-border-bottom-left-radius: 10px;
+                                }
+
+                                &:nth-of-type(2) {
+                                    div {
+                                        background-color: #9f2e2e;
+                                    }
+                                }
+
+                                &:nth-of-type(3) {
+                                    div {
+                                        background-color: #ffffff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //车灯切换区域
+        .tablight {
+            background-color: rgba(0, 0, 0, 0.1);
+            height: 7.15rem;
+
+            // 头部文字切换区域
+            >.toptext {
+                width: 6rem;
+                margin: auto;
+
+                >p {
+                    font-size: .18rem;
+                    letter-spacing: 0.02rem;
+                    color: #000000;
+                    padding: .3rem 0 .43rem 0;
+                }
+
+                >ul {
+                    display: flex;
+                    font-size: .13rem;
+                    color: #595757;
+                    cursor: pointer;
+
+                    li {
+                        flex: 1;
+
+                        &.active {
+                            span {
+                                position: relative;
+
+                                display: inline-block;
+
+                                >div {
+                                    position: absolute;
+                                    top: -0.08rem;
+                                    width: 100%;
+                                    height: 0.02rem;
+                                    background-color: #626262;
+                                }
+                            }
+                        }
+
+                        &:nth-of-type(2) {
+                            text-align: center;
+                        }
+
+                        &:last-child {
+                            text-align: end;
+                        }
+                    }
+                }
+            }
+
+            //图片切换区域
+            >.phototab {
+                width: 6.3rem;
+                height: 4.68rem;
+                margin: .26rem auto .34rem;
+                background: url('../img/telimg/second/light01.png') no-repeat;
+                background-size: contain;
+            }
+
+            >.bottomtext {
+                width: 6.3rem;
+                margin: auto;
+                font-size: .25rem;
+                letter-spacing: 0.03rem;
+            }
+        }
+
+        //外观设计
+        .outside {
+            height: 13.2rem;
+            position: relative;
+
+            .outside-toptab {
+                width: 6.3rem;
+                position: absolute;
+                top: .51rem;
+                left: .6rem;
+                z-index: 2;
+
+                >p {
+                    padding: 0 0 .32rem 0;
+                    font-size: .18rem;
+                    color: #ffffff;
+                }
+
+                >ul {
+                    display: flex;
+                    cursor: pointer;
+
+                    li {
+                        flex: 1;
+                        font-size: .12rem;
+                        color: #ffffff;
+                        text-align: center;
+
+                        &:first-child {
+                            text-align: start;
+                            flex: 0.9;
+                        }
+
+                        &:nth-of-type(2) {
+                            flex: 1.2;
+                        }
+
+                        &:nth-of-type(3) {
+                            flex: 1.1;
+                        }
+
+                        &:nth-of-type(4) {
+                            flex: 0.8;
+                        }
+
+                        &:last-child {
+                            text-align: end;
+                            flex: 0.9;
+                        }
+
+                        &.active {
+                            >span {
+                                position: relative;
+
+                                display: inline-block;
+
+                                >div {
+                                    position: absolute;
+                                    top: -0.08rem;
+                                    width: 100%;
+                                    height: 0.02rem;
+                                    background-color: #ffffff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            >.out-bottomtext {
+                position: absolute;
+                width: 6.3rem;
+                left: .6rem;
+                bottom: 1rem;
+                z-index: 2;
+
+                p {
+                    &:first-child {
+                        font-size: .35rem;
+                        color: #ffffff;
+                        padding-bottom: .29rem;
+                    }
+
+                    &:last-child {
+                        font-size: .18rem;
+                        color: rgba(255, 255, 255, .7);
+                    }
+                }
+            }
+
+            .swiper-wrapper {
+                height: 100%;
+
+                .swiper-slide {
+                    height: 100%;
+
+                    &:nth-of-type(1) {
+                        background: url('../img/telimg/second/gezi.png') no-repeat;
+                        background-size: contain;
+                    }
+
+                    &:nth-of-type(2) {
+                        background: url('../img/telimg/second/container.png') no-repeat;
+                        background-size: contain;
+                    }
+
+                    &:nth-of-type(3) {
+                        background: url('../img/telimg/second/zhaungshi.png') no-repeat;
+                        background-size: contain;
+                    }
+
+                    &:nth-of-type(4) {
+                        background: url('../img/telimg/second/window.png') no-repeat;
+                        background-size: contain;
+                    }
+
+                    &:nth-of-type(5) {
+                        background: url('../img/telimg/second/wheel.png') no-repeat;
+                        background-size: contain;
+                    }
+                }
+            }
+        }
+
+        //内饰设计
+        .inside {
+            height: 12.7rem;
+            background-color: #f3f4f5;
+            position: relative;
+
+            .inside-bck {
+                height: 100%;
+                width: 6.3rem;
+                margin: auto;
+                background: url('../img/pcimg/apprance/tel-inside02.png') no-repeat;
+                background-size: contain;
+                background-position-y: 1.5rem;
+            }
+
+            .right {
+                width: 6.3rem;
+                margin: auto;
+
+                .right-text {
+                    position: absolute;
+                    bottom: .64rem;
+
+                    >p {
+                        font-size: .25rem;
+                        color: #000000;
+
+                    }
+
+                    >.inside-text {
+                        line-height: .34rem;
+                        font-size: .15rem;
+                        color: rgba(0, 0, 0, 0.4);
+                        margin-top: .33rem;
+                        letter-spacing: 0.02rem;
+
+                        p {
+                            float: left;
+                        }
+                    }
+                }
+
+                >.inside-tab {
+                    position: absolute;
+                    top: .46rem;
+
+                    >p {
+                        font-size: .18rem;
+
+                        margin-bottom: .36rem
+                    }
+
+                    ;
+
+                    >ul {
+                        width: 6.3rem;
+                        display: flex;
+
+                        li {
+                            flex: 1;
+                            font-size: .13rem;
+
+                            &.active {
+
+                                span {
+                                    position: relative;
+                                    display: inline-block;
+
+                                    div {
+                                        position: absolute;
+                                        top: -0.08rem;
+                                        width: 100%;
+                                        height: 0.02rem;
+                                        background-color: #626262;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
